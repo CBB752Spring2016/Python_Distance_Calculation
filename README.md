@@ -2,7 +2,6 @@
 ---------------------------------------------------------------
 Python tool that calculates the distance between two alpha carbons from a PDB file. A tool that accomplishes this task in the language R can be found [here] (https://github.com/peter-mm-williams/R_Distance_Calculation.git). This tool is part of a set of bioinformatic and biological structure tools created for CBB752 at Yale University in the Spring 2016. The website containing the set of tools can be found [here] (http://cbb752spring2016.github.io).
 
-# The python tool that accomplishes this task is named distcalc.py
 ## General
 The tool is named distcalc.py. It takes 3 required inputs (inputfile, index1, and index2) and has two optional (outopts, and outputfile) The indices (index1 and index2) correspond to the alpha cabons of the ith and jth residues. The input (inputfile) is the name of a corresponding pdb file from which to calculate the distance. The distance is given in Angstroms. < outopts > allows the user to produce the distance in python to assign to a variable or print out to a text file with the option of including the amino acid sequence comma delimitted.
 The tool can be called from both a terminal or inside python with the formatting listed below.
